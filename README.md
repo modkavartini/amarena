@@ -1,7 +1,8 @@
 # Lovelace
 A ~copy~ port of a [beautiful linux theme](https://www.reddit.com/r/unixporn/comments/hpakeu/awesome_afternoon_in_a_perfect_world/) made by [elenapan](https://github.com/elenapan) to Windows.
 
-![image](https://assets.stickpng.com/images/5a81af7d9123fa7bcc9b0793.png) This skin is still in Beta. 
+![image](https://assets.stickpng.com/images/5a81af7d9123fa7bcc9b0793.png) 
+This skin is still in Beta. 
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/81793953/130921636-64470d29-c98d-4c39-8dde-7e384b102cf1.png)
