@@ -1,4 +1,4 @@
-# Lovelace
+# Amarena
 A ~copy~ port of a [beautiful linux theme](https://www.reddit.com/r/unixporn/comments/hpakeu/awesome_afternoon_in_a_perfect_world/) made by [elenapan](https://github.com/elenapan) to Windows.
 
 #### Warning!
