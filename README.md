@@ -12,7 +12,7 @@ This suite is still in Beta. you may experience bugs and/or incomplete functiona
 * [Rainmeter v4.4](https://www.rainmeter.net) or later.
 
 ### Install
-* Go to [Releases](https://github.com/ModkaVartini/Lovelace/releases) and Download the latest version of the Lovelace suite.
+* Go to [Releases](https://github.com/ModkaVartini/Amarena/releases) and Download the latest version of the Amarena suite.
 * Install the suite by running the `.rmskin` file.
 
 ### Customization
