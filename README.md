@@ -17,7 +17,7 @@ This suite is still in Beta. you may experience bugs and/or incomplete functiona
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/ModkaVartini/Amarena/main/Installer.ps1" | Invoke-Expression
 ```
 
-#### Manual Installation
+#### __Manual Installation__
 * Go to [Releases](https://github.com/ModkaVartini/Amarena/releases) and Download the latest version of the Amarena suite.
 * Install the suite by running the `.rmskin` file.
 
