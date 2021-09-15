@@ -5,17 +5,22 @@ $latestVer=($latestVerRaw | ConvertFrom-Json).tag_name -replace "v",""
 $url="https://github.com/$githubName/$skinName/releases/download/v$latestVer/$skinName"+"_$latestVer.rmskin"
 $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
 
-    Write-Host "Downloading $skinName.rmskin..." -ForegroundColor "Yellow"
+    Write-Host "> Downloading $skinName..." -ForegroundColor "Yellow"
     $wc=New-Object System.Net.WebClient
     $wc.DownloadFile($url, $outPath)
     Start-Process -Filepath $outPath
 
-    If($Null -NotMatch (get-process "SkinInstaller" -ea SilentlyContinue)) {
-        Write-Host "Installing v$latestVer..." -ForegroundColor "Yellow"
+    if($null -notmatch (get-process "SkinInstaller" -ea SilentlyContinue)) {
+        Write-Host "> Installing v$latestVer..." -ForegroundColor "Yellow"
         $wshell=New-Object -ComObject wscript.shell
         Start-Sleep -s 1
-        $wshell.AppActivate('Rainmeter Skin Installer');
+        $wshell.AppActivate('Rainmeter Skin Installer')
         Start-Sleep -s 1
         $wshell.SendKeys('~')
+
         Write-Host "> The $skinName suite was installed successfully." -ForegroundColor "Green"
+        Write-Host "> This window will close itself in 10 seconds..."
+        Start-Sleep -s 10
+        Remove-Item $outPath
+        exit
     }
