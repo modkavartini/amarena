@@ -125,7 +125,7 @@ path6=
 ititle6=
 process6=
 
-version=0.6
+currVersion=0.6
 discAv=1
 avatar=C:\Users\hp\Documents\Rainmeter\Skins\Lovelace\Dashboard\DownloadFile\dAvatar.png
 avatarPath=#@#Images\defaultAvImg.jpeg
