@@ -18,3 +18,4 @@ This suite is still in Beta. you may experience bugs and/or incomplete functiona
 ### Customization
 * Right click any skin, Click on `Open Settings` to load the settings skin. Navigate through it and change the settings according to your needs.
 
+Version 0.6
