@@ -16,6 +16,6 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
         Start-Sleep -s .5
         $wshell.AppActivate('Rainmeter Skin Installer')
         Start-Sleep -s 1
-        $wshell.SendKeys('~')
+        #$wshell.SendKeys('~')
         Write-Host "> The $skinName suite was installed successfully." -ForegroundColor "DarkGreen"    
     }
