@@ -14,6 +14,6 @@ If($latestVer -NotMatch $currentVer) {
         $wshell=New-Object -ComObject wscript.shell
         $wshell.AppActivate('Rainmeter Skin Installer')
         Start-Sleep -s 1
-        #$wshell.SendKeys('~')
+        $wshell.SendKeys('~')
     }
 }
