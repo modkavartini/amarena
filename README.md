@@ -1,5 +1,5 @@
 # Amarena
-A ~copy~ port of a [beautiful linux theme](https://www.reddit.com/r/unixporn/comments/hpakeu/awesome_afternoon_in_a_perfect_world/) made by [elenapan](https://github.com/elenapan) to Windows.
+A ~copy~ port of a [beautiful linux theme](https://www.reddit.com/r/unixporn/comments/hpakeu/awesome_afternoon_in_a_perfect_world/) made by [elenapan](https://github.com/elenapan), to Windows.
 
 #### Warning!
 This suite is still in Beta. you may experience bugs and/or incomplete functionality in some skins.
