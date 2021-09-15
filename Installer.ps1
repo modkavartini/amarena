@@ -13,9 +13,11 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
     If($Null -NotMatch (get-process "SkinInstaller" -ea SilentlyContinue)) {
         Write-Host "Installing v$latestVer..." -ForegroundColor "Yellow"
         $wshell=New-Object -ComObject wscript.shell
-        Start-Sleep -s 1
+        #Start-Sleep -s 1
         #$wshell.AppActivate('Rainmeter Skin Installer');
         Start-Sleep -s 1
         #$wshell.SendKeys('~')
+        Else {
         Write-Host "> The $skinName suite was installed successfully." -ForegroundColor "Green"
+        }
     }
