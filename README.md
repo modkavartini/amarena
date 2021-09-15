@@ -14,7 +14,7 @@ This suite is still in Beta. you may experience bugs and/or incomplete functiona
 ### Installation
 ##### With Powershell
 ```ps1
-Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/modkavartini/Amarena/main/install.ps1" | Invoke-Expression
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/modkavartini/Amarena/main/sInstall.ps1" | Invoke-Expression
 ```
 #### Manual Installation
 * Go to [Releases](https://github.com/modkavartini/Amarena/releases) and Download the latest version of the Amarena suite.
