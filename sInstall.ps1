@@ -1,4 +1,4 @@
-$githubName="ModkaVartini"
+$githubName="modkavartini"
 $skinName="Amarena"
 $latestVerRaw=Invoke-WebRequest -Uri "https://api.github.com/repos/$githubName/$skinName/releases/latest" -UseBasicParsing
 $latestVer=($latestVerRaw | ConvertFrom-Json).tag_name -replace "v",""
@@ -21,6 +21,6 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
         Write-Host "> The $skinName suite was installed successfully." -ForegroundColor "Green"
         Write-Host "> This window will close itself in 10 seconds..."
         Start-Sleep -s 10
-        Remove-Item $outPath
+        Remove-Item $outPath -ErrorAction SilentlyContinue
         exit
     }
