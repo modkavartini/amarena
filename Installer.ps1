@@ -8,19 +8,18 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
     Write-Host "> Downloading $skinName..." -ForegroundColor "Yellow"
     $wc=New-Object System.Net.WebClient
     $wc.DownloadFile($url, $outPath)
-    Start-Process -Filepath $outPath
+    $shell = New-Object -ComObject Shell.Application
+    $shell.minimizeall()
+    Start-Process $outPath
 
-    if($null -ne (get-process "SkinInstaller" -ea SilentlyContinue)) {
+    if($null -ne (Get-Process "SkinInstaller" -ea SilentlyContinue)) {
+        
         Write-Host "> Installing v$latestVer..." -ForegroundColor "Yellow"
-        $wshell=New-Object -ComObject wscript.shell
         Start-Sleep -s 1
-        $wshell.AppActivate('Rainmeter Skin Installer')
+        $wshell=New-Object -ComObject Wscript.Shell
+        $wshell.AppActivate('Rainmeter Skin Installer') 
         Start-Sleep -s 1
         $wshell.SendKeys('~')
-
         Write-Host "> The $skinName suite was installed successfully." -ForegroundColor "Green"
-        Write-Host "> This window will close itself in 10 seconds..."
-        Start-Sleep -s 10
-        Remove-Item $outPath -ErrorAction SilentlyContinue
         exit
     }
