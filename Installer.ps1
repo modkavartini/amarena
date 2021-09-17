@@ -10,7 +10,7 @@ $outPath="C:/Windows/Temp/$skinName"+"_$latestVer.rmskin"
     $wc.DownloadFile($url, $outPath)
     Start-Process -Filepath $outPath
 
-    if($null -notmatch (get-process "SkinInstaller" -ea SilentlyContinue)) {
+    if($null -ne (get-process "SkinInstaller" -ea SilentlyContinue)) {
         Write-Host "> Installing v$latestVer..." -ForegroundColor "Yellow"
         $wshell=New-Object -ComObject wscript.shell
         Start-Sleep -s 1
