@@ -5,8 +5,8 @@ A ~copy~ port of a [beautiful linux theme](https://www.reddit.com/r/unixporn/com
 This suite is still in Beta. you may experience bugs and/or incomplete functionality in some skins.
 
 ## Preview
-![image](https://user-images.githubusercontent.com/81793953/130921636-64470d29-c98d-4c39-8dde-7e384b102cf1.png)
-![image](https://user-images.githubusercontent.com/81793953/130991666-c3c8fdbc-471d-4405-b7dd-2010a408a71c.png)
+![Desktop](https://user-images.githubusercontent.com/81793953/135581446-d765dd00-ef80-43e3-ab6c-ca478c65dc1f.png)
+![Dashboard](https://user-images.githubusercontent.com/81793953/135581395-1eb07621-c5f8-4744-88ef-20d0870dc7e6.png)
 
 ### Requirements
 * [Rainmeter v4.5](https://www.rainmeter.net) or later.
