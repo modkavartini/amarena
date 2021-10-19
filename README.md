@@ -26,7 +26,7 @@ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/modkavarti
 * For your discord avatar to be in sync with the dashboard, you need to use the [BetterDiscord](https://betterdiscord.app/) plugin included in the suite's resources folder. you can also get it from [here](https://github.com/modkavartini/Amarena/blob/main/%40Resources/DiscordAvatar.plugin.js)
 * The sidebar's search has a set of prefixes for each action:
 * For running a program, type `!o` or `!open` followed by the program's name. for example, `!o spotify`, `!open discord`.
-* For performing a google search, type `!s` or `!search` followed by the query. for example, `!s john cena pics`, `!search where are my braincells`. alternatively, you can go to a domain ending with `.com` by using it as the query. as in `!s youtube.com`.
+* For performing a google search, type `!s` or `!search` followed by the query. for example, `!s john cena pics`, `!search rickroll`. alternatively, you can go to a domain ending with `.com` by using it as the query. as in `!s youtube.com`.
 * For running a powershell command, type `!r` or `!run` followed by the command. for example, `!r start calc`, `!run start notepad`.
 
 ### Customization
