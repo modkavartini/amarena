@@ -20,5 +20,13 @@ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/modkavarti
 * Go to [Releases](https://github.com/modkavartini/Amarena/releases) and Download the latest version of the Amarena suite.
 * Install the suite by running the `.rmskin` file.
 
+### Instructions
+* You can activate/disable the dashboard by pressing `Win+Z`.
+* To access the power menu in the dashboard, click on the uptime info.
+* The sidebar's search has a set of prefixes for each action
+* For running a program, type `!o` or `!open` followed by the program's name. for example, `!o spotify`, `!open discord`.
+* For performing a google search, type `!s` or `!search` followed by the query. for example, `!s john cena pics`, `!search where are my braincells`. alternatively, you can go to a domain ending with `.com` by using it as the query. as in `!s youtube.com`.
+* For running a powershell command, type `!r` or `!run` followed by the command. for example, `!r start calc`, `!run start notepad`.
+
 ### Customization
 * Right click any skin, Click on `Open Settings` to load the settings skin. Navigate through it and change the settings according to your needs.
